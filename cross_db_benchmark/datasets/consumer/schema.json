@@ -1,0 +1,1 @@
+{"name": "consumer", "csv_kwargs": {"sep": "\t"}, "db_load_kwargs": {"postgres": "DELIMITER '\t' QUOTE '\"' ESCAPE '\\' NULL 'NULL' CSV HEADER;"}, "tables": ["HOUSEHOLD_MEMBERS", "HOUSEHOLDS", "EXPENDITURES"], "relationships": [["EXPENDITURES", ["HOUSEHOLD_ID"], "HOUSEHOLDS", ["HOUSEHOLD_ID"]], ["HOUSEHOLD_MEMBERS", ["HOUSEHOLD_ID"], "HOUSEHOLDS", ["HOUSEHOLD_ID"]]]}

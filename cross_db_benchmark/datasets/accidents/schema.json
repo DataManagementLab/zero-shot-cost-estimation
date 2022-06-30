@@ -1,0 +1,1 @@
+{"name": "accidents", "csv_kwargs": {"sep": "\t"}, "db_load_kwargs": {"postgres": "DELIMITER '\t' QUOTE '\"' ESCAPE '\\' NULL 'NULL' CSV HEADER;"}, "tables": ["upravna_enota", "oseba", "nesreca"], "relationships": [["nesreca", ["upravna_enota"], "upravna_enota", ["id_upravna_enota"]], ["oseba", ["upravna_enota"], "upravna_enota", ["id_upravna_enota"]]]}

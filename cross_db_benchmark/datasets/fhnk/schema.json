@@ -1,0 +1,1 @@
+{"name": "fhnk", "csv_kwargs": {"sep": "\t"}, "db_load_kwargs": {"postgres": "DELIMITER '\t' QUOTE '\"' ESCAPE '\\' NULL 'NULL' CSV HEADER;"}, "tables": ["pripady", "zup", "vykony"], "relationships": [["vykony", ["Identifikace_pripadu"], "pripady", ["Identifikace_pripadu"]], ["zup", ["Identifikace_pripadu"], "pripady", ["Identifikace_pripadu"]]]}

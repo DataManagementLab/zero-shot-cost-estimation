@@ -1,0 +1,121 @@
+{
+  "name": "imdb",
+  "csv_kwargs": {
+    "escapechar": "\\",
+    "encoding": "utf-8",
+    "quotechar": "\"",
+    "error_bad_lines": false
+  },
+  "db_load_kwargs": {
+    "postgres": "DELIMITER ',' QUOTE '\"' ESCAPE '\\' NULL '' CSV HEADER;"
+  },
+  "tables": [
+    "movie_link",
+    "title",
+    "cast_info",
+    "company_name",
+    "company_type",
+    "info_type",
+    "keyword",
+    "movie_companies",
+    "movie_info_idx",
+    "movie_keyword",
+    "complete_cast",
+    "movie_info",
+    "person_info",
+    "kind_type",
+    "link_type",
+    "char_name",
+    "comp_cast_type",
+    "aka_name",
+    "aka_title",
+    "name",
+    "role_type"
+  ],
+  "relationships": [
+    [
+      "cast_info",
+      "movie_id",
+      "title",
+      "id"
+    ],
+    [
+      "movie_companies",
+      "company_id",
+      "company_name",
+      "id"
+    ],
+    [
+      "movie_companies",
+      "company_type_id",
+      "company_type",
+      "id"
+    ],
+    [
+      "movie_info_idx",
+      "info_type_id",
+      "info_type",
+      "id"
+    ],
+    [
+      "movie_keyword",
+      "keyword_id",
+      "keyword",
+      "id"
+    ],
+    [
+      "movie_companies",
+      "movie_id",
+      "title",
+      "id"
+    ],
+    [
+      "movie_info_idx",
+      "movie_id",
+      "title",
+      "id"
+    ],
+    [
+      "cast_info",
+      "person_role_id",
+      "char_name",
+      "id"
+    ],
+    [
+      "movie_keyword",
+      "movie_id",
+      "title",
+      "id"
+    ],
+    [
+      "movie_info",
+      "movie_id",
+      "title",
+      "id"
+    ],
+    [
+      "person_info",
+      "person_id",
+      "name",
+      "id"
+    ],
+    [
+      "title",
+      "kind_id",
+      "kind_type",
+      "id"
+    ],
+    [
+      "cast_info",
+      "person_id",
+      "aka_name",
+      "id"
+    ],
+    [
+      "aka_name",
+      "person_id",
+      "name",
+      "id"
+    ]
+  ]
+}

@@ -1,0 +1,1 @@
+{"name": "walmart", "csv_kwargs": {"sep": "\t"}, "db_load_kwargs": {"postgres": "DELIMITER '\t' QUOTE '\"' ESCAPE '\\' NULL 'NULL' CSV HEADER;"}, "tables": ["train", "station", "key"], "relationships": [["key", ["station_nbr"], "station", ["station_nbr"]], ["train", ["store_nbr"], "key", ["store_nbr"]]]}

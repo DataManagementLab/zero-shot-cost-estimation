@@ -1,0 +1,1 @@
+{"batch_size": 256, "dropout": false, "final_layers": 4, "final_width_factor": 1.5, "hidden_dim": 128, "lr": 0.001, "max_emb_dim": 32, "message_passing_layers": 2, "node_layers": 4, "node_type_width_factor": 1.5, "p_dropout": 0.0, "plan_featurization_name": "PostgresEstSystemCardDetail", "residual": false, "tree_layer_name": "MscnConv", "tree_layer_width_factor": 0.6}
