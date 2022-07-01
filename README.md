@@ -11,7 +11,7 @@ Benjamin Hilprecht and Carsten Binnig: "Zero-Shot Cost Models for Out-of-the-box
 
 ## Citation
 
-Please cite our paper, if you find this work useful.
+Please cite our papers, if you find this work useful.
 
 ```
 @article{DBLP:journals/corr/abs-2201-00561,
@@ -26,6 +26,20 @@ Please cite our paper, if you find this work useful.
   eprint    = {2201.00561},
   timestamp = {Mon, 10 Jan 2022 13:39:01 +0100},
   biburl    = {https://dblp.org/rec/journals/corr/abs-2201-00561.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/cidr/HilprechtB22,
+  author    = {Benjamin Hilprecht and
+               Carsten Binnig},
+  title     = {One Model to Rule them All: Towards Zero-Shot Learning for Databases},
+  booktitle = {12th Conference on Innovative Data Systems Research, {CIDR} 2022,
+               Chaminade, CA, USA, January 9-12, 2022},
+  publisher = {www.cidrdb.org},
+  year      = {2022},
+  url       = {https://www.cidrdb.org/cidr2022/papers/p16-hilprecht.pdf},
+  timestamp = {Mon, 20 Jun 2022 12:03:52 +0200},
+  biburl    = {https://dblp.org/rec/conf/cidr/HilprechtB22.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
