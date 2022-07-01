@@ -129,7 +129,7 @@ standard+complex workloads (where we can only use exact or Postgres estimated ca
 
 ```
 python3 train.py --gather_feature_statistics --workload_runs workload_100k_s1_c8220.json index_workload_100k_s2_c8220.json synthetic_c8220.json scale_c8220.json job-light_c8220.json --raw_dir ../zero-shot-data/runs/deepdb_augmented --target ../zero-shot-data/runs/deepdb_augmented/statistics_workload_combined.json
-python3 train.py --gather_feature_statistics --workload_runs workload_100k_s1_c8220.json complex_workload_200k_s1_c8220.json index_workload_100k_s2_c8220.json --raw_dir ../zero-shot-data/runs/parsed_plans --target ../zero-shot-data/runs/parsed_plans/statistics_complex_workload_combined.json
+python3 train.py --gather_feature_statistics --workload_runs workload_100k_s1_c8220.json complex_workload_200k_s1_c8220.json index_workload_100k_s2_c8220.json --raw_dir ../zero-shot-data/runs/parsed_plans --target ../zero-shot-data/runs/parsed_plans/statistics_workload_combined.json
 ```
 
 We are now ready to train a zero-shot model and evaluate it on some workload on an unseen database. Note that with the
