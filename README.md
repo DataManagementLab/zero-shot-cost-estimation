@@ -11,7 +11,7 @@ Benjamin Hilprecht and Carsten Binnig: "Zero-Shot Cost Models for Out-of-the-box
 
 ## Citation
 
-Please cite our papers, if you find this work useful.
+Please cite our papers, if you find this work useful or use it in your own paper as baseline.
 
 ```
 @article{DBLP:journals/corr/abs-2201-00561,
