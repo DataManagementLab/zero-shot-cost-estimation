@@ -5,7 +5,9 @@ described in
 
 Benjamin Hilprecht and Carsten Binnig: "Zero-Shot Cost Models for Out-of-the-box Learned Cost Prediction", VLDB'2022. [[PDF]](https://arxiv.org/abs/2201.00561)
 
-![Zero-Shot Cost Overview](overview.png "Zero-Shot Cost Overview")
+<p align="center">
+  <img src="overview.png" width="50%">
+</p>
 
 ## Citation
 
