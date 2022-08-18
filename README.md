@@ -14,19 +14,17 @@ Benjamin Hilprecht and Carsten Binnig: "Zero-Shot Cost Models for Out-of-the-box
 Please cite our papers, if you find this work useful or use it in your own paper as baseline.
 
 ```
-@article{DBLP:journals/corr/abs-2201-00561,
-  author    = {Benjamin Hilprecht and
-               Carsten Binnig},
+@article{Hilprecht2022a,
+  author    = {Benjamin Hilprecht and Carsten Binnig},
+  journal   = {Proc. {VLDB} Endow.},
   title     = {Zero-Shot Cost Models for Out-of-the-box Learned Cost Prediction},
-  journal   = {CoRR},
-  volume    = {abs/2201.00561},
   year      = {2022},
-  url       = {https://arxiv.org/abs/2201.00561},
-  eprinttype = {arXiv},
-  eprint    = {2201.00561},
-  timestamp = {Mon, 10 Jan 2022 13:39:01 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2201-00561.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  number    = {11},
+  pages     = {2361--2374},
+  volume    = {15},
+  doi       = {10.14778/3551793.3551799},
+  timestamp = {Fri, 09 Aug 2022 01:00:00 +0200},
+  url       = {http://www.vldb.org/pvldb/vol15/p2483-hilprecht.pdf},
 }
 
 @inproceedings{DBLP:conf/cidr/HilprechtB22,
